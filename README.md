@@ -14,13 +14,14 @@ mkcert -key-file key.pem -cert-file cert.pem localhost ::1 # gen certificate for
 # clone recursive submodule
 git clone --recursive git@github.com:wornut/mk-series.git
 
+# install workspace deps
+yarn install
+
 # start pane 1 for root config
 cd mk-root
-yarn install
 yarn start
 
 # start pane 2 for auth application
 cd mk-auth
-yarn install
 yarn dev
 ```

@@ -4,3 +4,6 @@
 [submodule "mk-auth"]
 	path = mk-auth
 	url = git@github.com:worcode/mk-auth.git
+[submodule "mk-home"]
+	path = mk-home
+	url = git@github.com:wornut/mk-home.git

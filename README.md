@@ -12,7 +12,7 @@ mkcert -key-file key.pem -cert-file cert.pem localhost ::1 # gen certificate for
 ## run micro frontend
 ```bash
 # clone recursive submodule
-git clone --recursive git@github.com:worcode/mk-series.git
+git clone --recursive git@github.com:wornut/mk-series.git
 
 # start pane 1 for root config
 cd mk-root

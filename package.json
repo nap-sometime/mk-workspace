@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
+    "mk-root",
     "mk-auth",
-    "mk-root"
+    "mk-home"
   ]
 }

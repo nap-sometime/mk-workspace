@@ -1,0 +1,12 @@
+{
+  "name": "mk",
+  "version": "1.0.0",
+  "repository": "git@github.com:wornut/mk-series.git",
+  "author": "worasitipon <worasitipon.t@hotmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "mk-auth",
+    "mk-root"
+  ]
+}

@@ -38,6 +38,8 @@
     -   [x] should not import `package.json` directly, hide library infomation
         -   **solution-vue** pass environment variable through [_process.env.VUE_APP\_\*_](https://cli.vuejs.org/guide/mode-and-env.html#example-staging-mode)
     -   [ ] better CSP config
+    -   [x] better secert and env organization
+        -  **solution** use [blackbox](https://github.com/StackExchange/blackbox)
 
 ----
 
